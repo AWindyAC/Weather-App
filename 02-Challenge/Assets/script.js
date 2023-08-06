@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var searchHistory = [];
 var weatherApiRootURL = 'https://api.openweathermap.org';
 var weatherApiKey = 'a02eb794e1596a41e10cf103d14e651a';
@@ -235,3 +236,17 @@ function renderCurrentWeather(city, weather) {
   searchForm.addEventListener('submit', handleSearchFormSubmit);
   searchHistoryContainer.addEventListener('click', handleSearchHistoryClick);
   
+=======
+var searchHistory = [];
+var weatherApiRootURL = 'https://api.openweathermap.org';
+var weatherApiKey = 'd91f911bcf2c0f925fb6535547a5ddc9';
+// Your API key here
+var myApiKey = "a02eb794e1596a41e10cf103d14e651a";
+//Dom Elements
+
+//timezone with day.js
+
+//Function to display search History
+
+//Starting at end of history list
+>>>>>>> 184d7c7 (Updated with API Key)
