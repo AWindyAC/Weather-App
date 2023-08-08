@@ -121,7 +121,7 @@ function renderCurrentWeather(city, weather) {
     tempEl.setAttribute('class', 'card-text');
     windEl.setAttribute('class', 'card-text');
     humidityEl.setAttribute('class', 'card-text');
-  
+  //added comment
     // Add content to elements
     cardTitle.textContent = dayjs(forecast.dt_txt).format('M/D/YYYY');
     weatherIcon.setAttribute('src', iconUrl);
